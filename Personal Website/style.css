@@ -1,0 +1,144 @@
+body {
+    
+    font-family: 'Shadows Into Light', cursive;
+	color:#2a3845;
+	margin:0;
+	padding:0;
+	background:#000000;
+}
+
+p {
+	margin:0;
+	padding:0;
+}
+
+
+#header {
+	margin:0 1px;
+}
+
+#main-content {
+	font-family: 'Questrial', sans-serif;
+	margin:0 auto;
+}
+
+#picOfMe {
+	text-align:center;
+}
+
+#dogPic {
+	text-align:right;
+}
+
+#left-column {
+	font-family: 'Questrial', sans-serif;
+	width:450px;
+	padding:0 30px 30px;
+	float:left;
+}
+
+#right-column {
+	font-family: 'Questrial', sans-serif;
+	width:500px;
+	float:right;
+}
+
+.sidebar {
+	width:218px;
+	margin:0 auto;
+	padding:10px 25px;
+	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+}
+
+.rotateimg90 {
+	-webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/*#footer {
+	background:#f7f7f7;
+	border-top:1px solid #f0e9eb;
+	padding:10px 15px;
+	clear:both;
+}*/
+
+/* Global Styling */
+
+a:visited, a:link {
+	color:palegreen;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:#a43b55;
+	text-decoration:none;
+	background:none;
+}
+
+h1 {
+	color:palegreen;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font-family: 'Shadows Into Light', cursive;
+	border-bottom:1px solid #efece7;
+}
+
+h2 {
+	color:palegreen;
+	margin:20px 0 10px;
+	padding-bottom:10px;
+	font-family: 'Shadows Into Light', cursive;
+	border-bottom:1px solid #efece7;
+}
+
+h3 {
+	color:palegreen;
+	margin:10px 0;
+	padding-bottom:10px;
+	font-family: 'Shadows Into Light', cursive;
+	border-bottom:1px solid #efece7;
+}
+
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+	background:black;
+	border:1px solid #f0e9eb;
+	padding:15px;
+}
+
+#nav {
+	background:black;
+	padding:10px 20px;
+	text-align:right;
+	color:#ffffff;
+}
+
+#nav a {
+	margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#f6dde3;
+}
+
+#logo {
+	font-size: xx-large;
+	margin-bottom:20px;
+	font-family: 'Questrial', sans-serif;
+	color:#FF33CA;
+}
